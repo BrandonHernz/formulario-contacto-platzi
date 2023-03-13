@@ -2,7 +2,7 @@
 require('mail.php');
 function validate($name, $email, $subject, $message)
 {
-  return !empty($name) && !empty($subject) && !empty($message);
+  return !empty($name) && !empty($email) && !empty($subject) && !empty($message);
 }
 
 $status = "";
